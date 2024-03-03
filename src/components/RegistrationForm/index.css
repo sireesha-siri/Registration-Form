@@ -1,0 +1,95 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  color: #ea580c;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 568px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 50px;
+  min-width: 35vw;
+  border-radius: 15px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 15px;
+  color: #475569;
+  font-weight: bold;
+  margin: 7px;
+}
+
+input {
+  font-size: 15px;
+  color: #9aa5b1;
+  padding: 10px;
+}
+
+.submit-button-container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+button {
+  min-width: 90px;
+  height: 30px;
+  border-radius: 7px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #ea580c;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.error-container {
+  background-color: #fef2f4;
+  border: 1px #ff0b37 solid;
+}
+
+p {
+  color: #ff0b37;
+  font-size: 15px;
+}
+
+.submission-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 50px;
+  min-width: 35vw;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.submission-response {
+  font-size: 15px;
+  color: #475569;
+}
+
+@media screen and (min-width: 568px) {
+  .submission-response {
+    font-size: 25px;
+  }
+}
